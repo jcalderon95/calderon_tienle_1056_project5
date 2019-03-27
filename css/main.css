@@ -1,0 +1,178 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+  box-sizing: border-box; 
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+
+.hidden
+{
+	display: none;
+}
+
+header
+{
+	background-color: #cccccc;
+	padding-top: 22px;
+	padding-bottom: 30px;
+
+}
+
+.container
+{
+	max-width: 1300px;
+	margin: 0 auto;
+}
+
+.mainNav
+{
+	background-color: #999999;
+	width: 36px;
+	height: 26px;
+	margin-bottom: 40px;
+	margin-left: auto;
+	margin-right: 20px;
+	padding-top: 2px;
+	text-align: center;
+	border-radius: 2px;
+}
+
+.logo
+{
+	width: 80px;
+	height: 80px;
+	background-color: #666666;
+/*	border-radius: 50px;*/
+	text-align: center;
+	padding-top: 20px;
+	margin: 0 auto;
+}
+
+.hero
+{
+	background-color: #ebebeb;
+	height: 500px;
+	padding-top: 55px;
+	margin-bottom: 60px;
+}
+
+.mainHeading
+{
+	text-align: center;
+	height: 55px;
+	width: 300px;
+	margin: 0 auto;
+	background-color: #999999;
+	border-radius: 2px;
+	margin-bottom: 70px;
+}
+
+.welcomeContent
+{
+	width: 305px;
+	height: 105px;
+	background-color: #999999;
+	margin: auto;
+	text-align: center;
+}
+
+.aboutHeading
+{
+	background-color: #999999;
+	width: 225px;
+	height: 45px;
+	margin: 0 auto;
+	border-radius: 2px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.aboutContent
+{
+	display: flex;
+	flex-direction: row;
+	width: 270px;
+	margin: 0 auto;
+	justify-content: space-between;
+/*	margin-top: 30px;*/
+	margin-bottom: 60px;
+}
+
+.icon
+{
+	background-color: #666666;
+	width: 30px;
+	border-radius: 2px;
+	font-size: 14px;
+	text-align: center;
+}
+
+.aboutText
+{
+	background-color: #999999;
+	width: 220px;
+	height: 70px;
+	text-align: center;
+	border-radius: 2px;
+}
+
+.button
+{
+	background-color: #666666;
+	border-radius: 2px;
+	width: 140px;
+	height: 33px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+@media screen and (min-width: 641px){
+
+	header
+	{
+		padding: 0;
+		height: 105px;
+	}
+
+	.navCon
+	{
+		display: flex;
+		flex-direction: row;
+		height: 135px;
+	}
+
+	.logo
+	{
+		order: -1;
+		flex: 0 1 200px;
+		margin-left: 5px;
+		/*width: 100px;
+		height: 90px;*/
+		margin-top: 10px;
+		margin-right: 20px;
+	}
+
+	.mainNav
+	{
+		height: 30px;
+		flex: 0 1 700px;
+		margin-top: 30px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
