@@ -1,1 +1,6 @@
-# calderon_tienle_1056_project5
+# 1056 Project 5 -  Responsive Scaffold
+
+### Team Members:
+
+####  - Jimmy Calderon
+####  - Tien Le

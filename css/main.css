@@ -26,7 +26,7 @@ header
 
 .container
 {
-	max-width: 1300px;
+	max-width: 1200px;
 	margin: 0 auto;
 }
 
@@ -45,10 +45,9 @@ header
 
 .logo
 {
-	width: 80px;
+	width: 100px;
 	height: 80px;
 	background-color: #666666;
-/*	border-radius: 50px;*/
 	text-align: center;
 	padding-top: 20px;
 	margin: 0 auto;
@@ -57,7 +56,7 @@ header
 .hero
 {
 	background-color: #ebebeb;
-	height: 500px;
+	height: 400px;
 	padding-top: 55px;
 	margin-bottom: 60px;
 }
@@ -66,8 +65,9 @@ header
 {
 	text-align: center;
 	height: 55px;
-	width: 300px;
 	margin: 0 auto;
+	margin-right: 5px;
+	margin-left: 5px;
 	background-color: #999999;
 	border-radius: 2px;
 	margin-bottom: 70px;
@@ -75,17 +75,18 @@ header
 
 .welcomeContent
 {
-	width: 305px;
 	height: 105px;
 	background-color: #999999;
 	margin: auto;
+	margin-right: 5px;
+	margin-left: 5px;
 	text-align: center;
 }
 
 .aboutHeading
 {
+	width: 230px;
 	background-color: #999999;
-	width: 225px;
 	height: 45px;
 	margin: 0 auto;
 	border-radius: 2px;
@@ -108,6 +109,7 @@ header
 {
 	background-color: #666666;
 	width: 30px;
+	height: 30px;
 	border-radius: 2px;
 	font-size: 14px;
 	text-align: center;
@@ -133,8 +135,9 @@ header
 	text-align: center;
 }
 
-@media screen and (min-width: 641px){
+@media screen and (min-width: 500px){
 
+	
 	header
 	{
 		padding: 0;
@@ -145,17 +148,15 @@ header
 	{
 		display: flex;
 		flex-direction: row;
-		height: 135px;
 	}
 
 	.logo
 	{
 		order: -1;
-		flex: 0 1 200px;
+		flex: 0 1 100px;
+		height: 90px;
 		margin-left: 5px;
-		/*width: 100px;
-		height: 90px;*/
-		margin-top: 10px;
+		margin-top: 8px;
 		margin-right: 20px;
 	}
 
@@ -163,10 +164,158 @@ header
 	{
 		height: 30px;
 		flex: 0 1 700px;
+    	height: 60px;
 		margin-top: 30px;
 	}
 
+	.hero
+	{
+		height: 640px;
+		margin-bottom: 120px;
+	}
+
+	.mainHeading
+	{
+		height: 125px;
+		margin-left: 5px;
+		margin-right: 5px;
+		margin-top: 70px;
+		margin-bottom: 75px;
+    
+	}
+
+	.welcomeContent
+	{
+		height: 200px;
+		margin: 0 auto;	
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+
+	.aboutHeading
+	{
+		width: 400px;
+		margin-bottom: 100px;
+	}
+	
+	.icon
+	{
+		width: 60px;
+		height: 60px;
+	}
+	
+	.aboutContent
+	{
+		width: 400px;
+	}
+	
+	.aboutText
+	{
+		width: 300px;
+		height: 120px;
+	}
+	
+	.buttonCon
+	{
+		margin-top: 100px;
+	}
 }
+
+@media screen and (min-width: 700px){
+
+	.mainHeading
+	{
+		height: 125px;
+		margin: 0 auto;
+		margin-top: 70px;
+		margin-bottom: 75px;
+		width: 700px;
+    
+	}
+
+	.welcomeContent
+	{
+		height: 200px;
+		margin-right: 5px;
+		margin-left: 5px;
+	}
+
+	.button
+	{
+		width: 200px;
+		height: 40px;
+	}
+
+	.buttonCon
+	{
+		display: flex;
+		flex-direction: row;
+		width: 600px;
+		margin: 0 auto;
+		margin-top: 20px;
+	}
+	
+/* 	.icon
+	{
+		width: 60px;
+		height: 60px;
+	}
+	 */
+	.aboutContent
+	{
+		width: 690px;
+	}
+	
+	.aboutText
+	{
+		width: 500px;
+		height: 120px;
+	}
+
+}
+
+@media screen and (min-width: 800px){
+
+	
+
+	.welcomeContent
+	{
+		height: 200px;
+		width: 800px;
+		margin: 0 auto;
+	}
+	
+	.aboutContent
+	{
+		width: 790px;
+	}
+	
+	.aboutText
+	{
+		width: 600px;
+		height: 120px;
+	}
+
+}
+
+@media screen and (min-width: 1000px){
+
+	
+	
+	.aboutContent
+	{
+		width: 990px;
+	}
+	
+	.aboutText
+	{
+		width: 800px;
+		height: 120px;
+	}
+
+}
+
+
 
 
 
